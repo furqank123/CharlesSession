@@ -1,0 +1,11 @@
+{
+  "capabilities": {
+    "android": {
+      "automationName":"UiAutomator2",
+      "deviceName":"SM-N920V",
+      "platformVersion":"7.0",
+      "appDirectory":"src/main/resources/ESPN.apk",
+      "appiumServer":"http://127.0.0.1:4723/wd/hub"
+    }
+  }
+}
