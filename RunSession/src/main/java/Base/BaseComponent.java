@@ -50,7 +50,7 @@ public class BaseComponent {
         capabilities.setCapability("autoGrantPermissions", true);
         capabilities.setCapability("newCommandTimeout",200);
         appiumDriver = new AndroidDriver(new URL(sessionData.getAppiumServer()),capabilities);
-        appiumDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        appiumDriver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
     }
 
